@@ -3,7 +3,7 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Tashkent, Uzbekistan',
     scale: "C",
   },
   clock: {
@@ -17,6 +17,7 @@ const default_config = {
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
+      yy: ["https://www.youtube.com/"]
     },
   },
   keybindings: {
@@ -91,8 +92,8 @@ const default_config = {
         name: "Video",
         links: [
           {
-            name: "disney+",
-            url: "https://www.disneyplus.com/home",
+            name: "kinopoisk",
+            url: "https://hd.kinopoisk.ru/ru-uz?utm_source=google_search&utm_medium=paid_performance&utm_campaign=21354594863%7CMSCAMP-3_%5BKP-P%5D_%7BWS%3AS%7D_UZ-171_goal-PL_Category-Brand&utm_content=INTid%7Ckwd-16730748753%7Ccid%7C21354594863%7Cgid%7C164353351198%7Caid%7C801022636992%7Cpos%7C%7Csrc%7Cg_%7Cdvc%7Cc&utm_term=kinopoisk.%5Bp%5D&gad_source=1&gad_campaignid=21354594863&gclid=CjwKCAjw857RBhAgEiwAI-1yKLU_JxOCQHV0k_98TRuaE0FrjRN1rLFij7fQRUf8Z11e49YbEKiy7BoCgsYQAvD_BwE&utm_referrer=www.google.com",
             icon: "brand-disney",
             icon_color: "#7daea3",
           },
