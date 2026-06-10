@@ -17,7 +17,9 @@ const default_config = {
       y: ["https://youtube.com/results?search_query=", "Youtube"],
       r: ["https://www.reddit.com/search/?q=", "Reddit"],
       p: ["https://www.pinterest.es/search/pins/?q=", "Pinterest"],
-      yy: ["https://www.youtube.com/"]
+      pp: ["https://www.pinterest.com/"],
+      yy: ["https://www.youtube.com/"],
+      gg: ["https://www.github.com/"]
     },
   },
   keybindings: {
@@ -26,7 +28,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://chat.openai.com/",
+  fastlink: "https://gemeni.google.com/",
   openLastVisitedTab: true,
   tabs: [
     {
