@@ -28,7 +28,7 @@ const default_config = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://gemeni.google.com/",
+  fastlink: "https://google.com/",
   openLastVisitedTab: true,
   tabs: [
     {
